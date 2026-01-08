@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Engine 2.0 | Official Creator Shells</title>
+    <style>
+        :root {
+            --space-blue: #0B1426;
+            --electric-orange: #FF8C00;
+            --white: #ffffff;
+            --card-bg: #16223d;
+        }
+
+        body {
+            background-color: var(--space-blue);
+            color: var(--white);
+            font-family: 'Inter', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(11, 20, 38, 0.8), rgba(11, 20, 38, 0.8)), 
+                        url('https://i.postimg.cc/cLsrzTkV/airpod-max-cases-aop-(1).jpg'); 
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--electric-orange);
+        }
+
+        h1 { font-size: clamp(2rem, 8vw, 3.5rem); color: var(--electric-orange); margin: 0; letter-spacing: 2px; }
+        .price-tag { font-size: 2rem; font-weight: bold; margin: 10px 0; color: var(--white); }
+
+        .cta-btn {
+            background: var(--electric-orange);
+            color: white;
+            padding: 20px 50px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            font-size: 1.2rem;
+            transition: 0.3s;
+            box-shadow: 0 10px 20px rgba(255, 140, 0, 0.3);
+        }
+
+        .cta-btn:hover { transform: scale(1.05); background: #ffaa42; }
+
+        /* Product Showcase */
+        .showcase {
+            max-width: 1100px;
+            margin: 60px auto;
+            display: flex;
+            gap: 40px;
+            padding: 0 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product-card {
+            background: var(--card-bg);
+            border-radius: 24px;
+            padding: 20px;
+            flex: 1;
+            min-width: 320px;
+            max-width: 500px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 15px;
+        }
+
+        .features-list {
+            text-align: left;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+        }
+
+        footer { text-align: center; padding: 60px; opacity: 0.6; border-top: 1px solid rgba(255,255,255,0.1); }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>BORN TO CREATE.</h1>
+        <p style="max-width: 700px; margin: 20px auto;">The official Content Engine 2.0 shells for creators who change the world by sharing everything they know.</p>
+        <div class="price-tag">$28.98</div>
+        <a href="YOUR_PRINTIFY_LINK" class="cta-btn">BUY NOW</a>
+    </header>
+
+    <div class="showcase">
+        <div class="product-card">
+            <img src="https://i.postimg.cc/QtBBbtYW/airpod-max-cases-aop-(2).jpg" alt="AirPods Max Left View">
+            <h3>Premium Protection</h3>
+            <p>High-quality polycarbonate shell with a scratch-resistant finish.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://i.postimg.cc/J7Z04S96/airpod-max-cases-aop.jpg" alt="AirPods Max Right View">
+            <h3>Signature Badge</h3>
+            <p>The cosmic gear and lightbulb emblem: A badge for the modern creator.</p>
+        </div>
+    </div>
+
+    <div class="features-list">
+        <h2 style="text-align: center; color: var(--electric-orange);">Product Specs</h2>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+            <div>
+                <p>✅ 100% Polycarbonate impact resistance</p>
+                <p>✅ Glossy or matte scratch-resistant finish</p>
+            </div>
+            <div>
+                <p>✅ Supports wired & wireless charging</p>
+                <p>✅ Precision fit for AirPods Max</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p><strong>CONTENT ENGINE 2.0</strong></p>
+        <p>Protecting the tools of the tribe. Headphones not included.</p>
+    </footer>
+
+</body>
+</html>
